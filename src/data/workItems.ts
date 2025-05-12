@@ -1,0 +1,50 @@
+export const workItems = [
+  {
+    id: "1",
+    originator: { initials: "SM", name: "Sam Masters" },
+    client: { name: "NAMEX Tech Solutions", line: "Cyber Liability" },
+    type: "Underwriter Referral",
+    status: "New",
+    created: "04/16/2025",
+  },
+  {
+    id: "2",
+    originator: { initials: "AW", name: "Annalise Willis" },
+    client: { name: "Maritime Logistics Corp", line: "Marine Cargo" },
+    type: "Underwriter Referral",
+    status: "New",
+    created: "04/20/2025",
+  },
+  {
+    id: "3",
+    originator: { initials: "PD", name: "Patrick Devenport" },
+    client: { name: "GreenField Energy Ltd", line: "Environmental" },
+    type: "Loss Control Request",
+    status: "New",
+    created: "04/16/2025",
+  },
+  {
+    id: "4",
+    originator: { initials: "AK", name: "Ana Killian" },
+    client: { name: "NorthStar Financial Group", line: "D&O Liability" },
+    type: "Underwriter Referral",
+    status: "Pending Review",
+    created: "04/22/2025",
+  },
+  {
+    id: "5",
+    originator: { initials: "AK", name: "Ana Killian" },
+    client: { name: "Alliance Healthcare Systems", line: "Medical Malpractice" },
+    type: "Email",
+    status: "Completed",
+    created: "04/28/2025",
+  },
+  {
+    id: "6",
+    originator: { initials: "MK", name: "Me" },
+    client: { name: "QuantumTech Industries", line: "Product Liability" },
+    type: "Email",
+    status: "Completed",
+    created: "04/20/2025",
+  }
+]
